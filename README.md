@@ -23,14 +23,23 @@ A sleek Windows 11 customization theme featuring modern glass aesthetics with tr
 
 
 ![Preview 1](./gallery/preview-01.jpg)
+
 ![Preview 2](./gallery/preview-02.jpg)
+
 ![Preview 3](./gallery/preview-03.jpg)
+
 ![Preview 4](./gallery/preview-04.jpg)
+
 ![Preview 5](./gallery/preview-05.jpg)
+
 ![Preview 6](./gallery/preview-06.jpg)
+
 ![Preview 7](./gallery/preview-07.jpg)
+
 ![Preview 8](./gallery/preview-08.jpg)
+
 ![Preview 9](./gallery/preview-09.jpg)
+
 ![Preview 10](./gallery/preview-10.jpg)
 
 ## Author
