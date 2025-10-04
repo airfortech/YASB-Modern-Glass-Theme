@@ -1,5 +1,5 @@
-watch_stylesheet: true
-watch_config: true
+watch_stylesheet: false
+watch_config: false
 debug: false
 bars:
   status-bar:
@@ -14,7 +14,6 @@ bars:
       acrylic: false
       dark_mode: true
       round_corners: false
-      border_color: None
     window_flags:
       always_on_top: false
       windows_app_bar: true
@@ -24,9 +23,8 @@ bars:
     widgets:
       left: ["home", "taskbar"]
       center: ["launchpad", "clock", "weather", "media"]
-      right:
-        [
-          "systray",
+      right: [
+          # "systray",
           "cpu",
           "memory",
           "disk",
@@ -91,7 +89,7 @@ widgets:
       api_key: "3bf4cf9a7c3f40d6b31174128242807" # Get your free API key from https://www.weatherapi.com/
       update_interval: 600 # Update interval in seconds, Min 600 seconds
       hide_decimal: true
-      location: "Warsaw, Poland" # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
+      location: "Legnica, Poland" # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
       callbacks:
         on_left: "toggle_card"
         on_middle: "toggle_label"
@@ -328,7 +326,7 @@ widgets:
       icon_size: 16
       tooltip: false
       show_only_visible: false
-      strict_filtering: false
+      strict_filtering: true
       monitor_exclusive: false
       animation:
         enabled: true

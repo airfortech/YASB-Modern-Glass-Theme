@@ -1,0 +1,9 @@
+PL:
+Ustawienia->Personalizacja->Kolory->Kolor wiodący: #186267
+Ustawienia->Personalizacja->Pasek zadań->Zachowanie paska zadań->Automatycznie ukrywaj pasek zadań: true
+Ustawienia->Personalizacja->Pasek zadań->Zachowanie paska zadań->Wyświetl miganie w aplikacjach paska zadań: false
+
+EN:
+Settings->Personalization->Colors->Accent color: #186267
+Settings->Personalization->Taskbar->Taskbar behaviors->Automatically hide the taskbar: true
+Settings->Personalization->Taskbar->Taskbar behaviors->Show flashing on taskbar apps: false

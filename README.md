@@ -16,7 +16,7 @@ A sleek Windows 11 customization theme featuring modern glass aesthetics with tr
 
 1. **Prerequisites**: Install YASB Reborn https://github.com/amnweb/yasb
 2. **Fonts**: Install `"Segoe UI"`, `"JetBrainsMono NFP"` and `"Segoe Fluent Icons"` if you don't have it.
-2. **Install theme**: Copy `config/config.yaml` and `config/styles.css` to yasb directory.
+2. **Install theme**: Copy `config/yasb/config.yaml` and `config/yasb/styles.css` to yasb config directory.
 5. **Restart YASB**: Reload YASB to apply the new theme
 
 ## Gallery
