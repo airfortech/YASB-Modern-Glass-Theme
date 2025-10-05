@@ -1,7 +1,7 @@
 {
   "theme": "DockLike",
   "controlStyles[0].target": "Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid",
-  "controlStyles[0].styles[0]": "Margin=0,1,0,3",
+  "controlStyles[0].styles[0]": "Margin=0,4,0,4",
   "controlStyles[0].styles[1]": "CornerRadius=8",
   "controlStyles[1].target": "Grid#SystemTrayFrameGrid",
   "controlStyles[1].styles[0]": "CornerRadius=8",
