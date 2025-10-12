@@ -1,5 +1,5 @@
-watch_stylesheet: false
-watch_config: false
+watch_stylesheet: true
+watch_config: true
 debug: false
 bars:
   status-bar:
@@ -146,6 +146,8 @@ widgets:
         border_color: "System"
         alignment: "center"
         direction: "down"
+        show_apps: true
+        show_app_icons: true
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:

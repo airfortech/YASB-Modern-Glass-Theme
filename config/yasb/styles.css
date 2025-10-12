@@ -39,6 +39,7 @@
   --margin-small: 2px 0;
   --margin-normal: 8px;
   --margin-lg: 12px;
+  --margin-xl: 18px;
   --padding-label: 0px 2px 2px 2px;
   --padding-menu: 12px 84px 12px 14px;
   --padding-volume: 12px 14px;
@@ -222,7 +223,8 @@
 
 /* Volume */
 .volume-slider {
-  padding: 8px;
+  padding: var(--margin-normal);
+  margin: var(--margin-normal) 0;
 }
 .volume-slider::groove {
 }
@@ -233,7 +235,7 @@
 }
 .audio-container .device {
   padding: var(--padding-volume);
-
+  margin: var(--margin-small);
   font-size: var(--text-normal);
   border: 1px solid transparent;
   border-radius: var(--radius-normal);
@@ -246,6 +248,44 @@
   background-color: var(--bg-hover-primary);
 }
 .volume-widget .progress-circle {
+}
+.audio-menu .toggle-apps {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  min-height: 24px;
+  min-width: 24px;
+  border-radius: var(--radius-normal);
+}
+.audio-menu .toggle-apps.expanded {
+}
+.audio-menu .toggle-apps:hover {
+  background-color: var(--bg-hover-primary);
+}
+.audio-menu .apps-container {
+  padding: var(--margin-xl) var(--margin-normal);
+  margin-top: var(--margin-normal);
+  border-radius: var(--radius-normal);
+  background-color: var(--bg-hover-secondary);
+}
+.audio-menu .apps-container .app-volume {
+  margin: var(--margin-normal);
+}
+.audio-menu .apps-container .app-volume .app-icon-container {
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: var(--radius-normal);
+  margin-right: var(--margin-normal);
+}
+.audio-menu .apps-container .app-volume .app-slider {
+  min-height: 40px;
+  max-height: 40px;
+}
+.audio-menu .apps-container .app-volume .app-icon-container:hover {
+  background-color: var(--bg-hover-primary);
 }
 
 /* Power Menu */
