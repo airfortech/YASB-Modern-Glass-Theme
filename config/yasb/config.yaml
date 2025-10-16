@@ -148,6 +148,7 @@ widgets:
         direction: "down"
         show_apps: true
         show_app_icons: true
+        show_apps_expanded: true
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
